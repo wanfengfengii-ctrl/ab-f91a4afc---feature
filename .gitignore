@@ -1,0 +1,18 @@
+.DS_Store
+.env
+.venv/
+venv/
+# Root-anchored so the vendored offline toolchain at tools/node_modules is
+# intentionally committed and Docker builds need no npm registry access.
+/node_modules/
+/dist/
+/data/
+*.log
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.pnpm-store/
+*.py[cod]
